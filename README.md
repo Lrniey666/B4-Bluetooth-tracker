@@ -4,7 +4,8 @@
 </div>
 
 <div align="center">
-  <img src="docs/assets/hero.svg" alt="B4 Bluetooth Tracker" width="760">
+  <img src="docs/assets/hardware
+/device-diagram.png" alt="B4 Bluetooth Tracker" width="760">
 </div>
 
 <h1 align="center">B4 Bluetooth Tracker</h1>

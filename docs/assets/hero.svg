@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">B4 Bluetooth Tracker</title>
+  <desc id="desc">ESP32 lost-item finder with Classic Bluetooth and an App Inventor handset.</desc>
+  <style>
+    .bg { fill: #f4f1ea; }
+    .frame { fill: none; stroke: #ddd6c8; stroke-width: 1; }
+    .ink { fill: #1b2434; }
+    .muted { fill: #5c6470; }
+    .blue { fill: #2f6fed; }
+    .orange { fill: #e07a2f; }
+    .chip { fill: #ffffff; stroke: #ddd6c8; stroke-width: 1; }
+    .chip-text { fill: #1b2434; font: 600 17px "Segoe UI", "Helvetica Neue", sans-serif; }
+    .title { fill: #1b2434; font: 700 58px "Segoe UI", "Helvetica Neue", sans-serif; letter-spacing: 0.4px; }
+    .tag { fill: #5c6470; font: 400 20px "Segoe UI", "Helvetica Neue", sans-serif; }
+    .rule { stroke: #e07a2f; stroke-width: 4; stroke-linecap: round; }
+    .device { fill: #2f6fed; }
+    .cut { fill: #f4f1ea; }
+    .wave { fill: none; stroke: #2f6fed; stroke-width: 6; stroke-linecap: round; }
+    .phone { fill: #1b2434; }
+    .screen { fill: #2f6fed; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #12161d; }
+      .frame { stroke: #2c3340; }
+      .ink, .title, .chip-text { fill: #ece8e0; }
+      .muted, .tag { fill: #9aa3b0; }
+      .chip { fill: #1b212b; stroke: #2c3340; }
+      .cut { fill: #12161d; }
+    }
+  </style>
+  <rect class="bg" width="1200" height="360" rx="28"/>
+  <rect class="frame" x="0.5" y="0.5" width="1199" height="359" rx="28"/>
+
+  <g transform="translate(56,78)">
+    <rect class="phone" x="0" y="18" width="52" height="92" rx="10"/>
+    <rect class="screen" x="7" y="30" width="38" height="58" rx="4"/>
+    <path class="wave" d="M66 48c12 10 12 34 0 44"/>
+    <path class="wave" d="M86 38c20 16 20 56 0 72"/>
+    <g transform="translate(128,22)">
+      <path class="device" d="M20 8h150l28 36v70H20z"/>
+      <rect class="cut" x="38" y="28" width="22" height="10" rx="3"/>
+      <circle class="cut" cx="148" cy="36" r="8"/>
+      <circle class="cut" cx="174" cy="36" r="5"/>
+      <rect class="cut" x="48" y="86" width="36" height="8" rx="2"/>
+      <rect class="cut" x="96" y="88" width="48" height="6" rx="2"/>
+    </g>
+  </g>
+
+  <text class="title" x="430" y="148">B4 Tracker</text>
+  <text class="tag" x="430" y="188">1iTh · Classic Bluetooth finder</text>
+  <line class="rule" x1="430" y1="208" x2="498" y2="208"/>
+
+  <g>
+    <rect class="chip" x="430" y="236" width="118" height="40" rx="10"/>
+    <text class="chip-text" x="489" y="262" text-anchor="middle">ESP32</text>
+    <rect class="chip" x="560" y="236" width="168" height="40" rx="10"/>
+    <text class="chip-text" x="644" y="262" text-anchor="middle">Bluetooth SPP</text>
+    <rect class="chip" x="740" y="236" width="168" height="40" rx="10"/>
+    <text class="chip-text" x="824" y="262" text-anchor="middle">App Inventor</text>
+    <rect class="chip" x="920" y="236" width="200" height="40" rx="10"/>
+    <text class="chip-text" x="1020" y="262" text-anchor="middle">2021 ØwL</text>
+  </g>
+</svg>

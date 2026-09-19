@@ -1,0 +1,14 @@
+original-data/
+local/
+*.mp4
+*.MOV
+*.HEIC
+*.pds
+*.zip
+*.apk
+*.aia.bak
+Thumbs.db
+.DS_Store
+*.tmp
+.vscode/
+.idea/

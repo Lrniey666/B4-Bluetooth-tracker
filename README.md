@@ -40,7 +40,7 @@
 
 錢包、鑰匙、遙控器——東西還在同一個房間，卻找不到。B4 不做 GPS、不上雲：手機用 **MIT App Inventor** 連上掛件裡的 **ESP32**，用一段 Classic Bluetooth 序號埠把中文指令送過去。裝置用 PWM 把蜂鳴器唱出來，燈也跟著亮。人循著聲音走過去，就是協尋。
 
-> **現況。** 這是 2021 學年度（民國 110）三庚專題 B 第四組的繳交成品，2026 年才收成可公開的展示倉。韌體停在 `BT9`，APP 停在 `esp_teat10-0914-2`。成片在 [YouTube](https://youtu.be/bfgeC1RDvt0)；問卷只放聚合統計，不上傳原始回覆。
+> **現況。** 這是 2021 學年度（民國 110）三庚專題 B 第四組的繳交成品，2026 年才收成可公開的 Showcase Repository。韌體停在 `BT9`，APP 停在 `esp_teat10-0914-2`。成片在 [YouTube](https://youtu.be/bfgeC1RDvt0)；問卷只放聚合統計，不上傳原始回覆。
 
 ## 功能
 
@@ -134,7 +134,7 @@ flowchart LR
 - 燈是低態驅動：`開燈` → `GPIO22 LOW`，`關燈` → `HIGH`。
 - 音量不是 dB，是把譜上的 duty 乘上 `btdutyCycle`（100 / 60 / 20 / 15 / 10 / 5 / 0）。
 - 各曲播完若未停止會**遞迴再播**；換曲走 `dost()`。`Pekora()` 有一處誤用 `sizeof(glnote)`，歷史碼照留，見 [`docs/firmware.md`](docs/firmware.md)。
-- 展示倉只刪了 `BT9.ino` 裡重複定義的第一份 `volume()`，否則無法編譯。行為與 2021 繳交版相同。
+- Showcase Repository 只刪了 `BT9.ino` 裡重複定義的第一份 `volume()`，否則無法編譯。行為與 2021 繳交版相同。
 - 鈴聲名稱對應課堂示範曲，**不是**可再散布的商業曲譜。授權說明見 [`LICENSE`](LICENSE)。
 
 </details>
@@ -180,7 +180,7 @@ original-data/         8.6 GB 原料庫，已被 .gitignore
 
 程式與文件：[MIT](LICENSE) © 2021 張任沂、徐家宥、鐘昱為。指導老師：劉倩如。
 
-課堂鈴聲只供重現當年展示，不授權那些旋律本身。第三方函式庫（u8g2、CMSIS 等）留在被忽略的原料庫，不構成本倉的一部分。
+課堂鈴聲只供重現當年展示，不授權那些旋律本身。第三方函式庫（u8g2、CMSIS 等）留在被忽略的原料庫，不構成本 Repository 的一部分。
 
 ---
 

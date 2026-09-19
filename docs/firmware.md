@@ -1,6 +1,6 @@
 # 韌體沿革
 
-最終檔是 [`firmware/BT9/`](../firmware/BT9/)。`original-data/專題用/` 裡還有 BT1–BT8 與一批 M／T 實驗，那些**沒有**收進本倉。
+最終檔是 [`firmware/BT9/`](../firmware/BT9/)。`original-data/專題用/` 裡還有 BT1–BT8 與一批 M／T 實驗，那些**沒有**收進本 Repository。
 
 ## 時間線（2021）
 
@@ -10,7 +10,7 @@
 | BT1 | 225 | 五首譜、PWM 播放；停止有時只是再拉一次燈 |
 | BT5 系列 | 542 | 音量檔位、播放中讀序列埠 |
 | BT8 系列 | 572 | 循環播放、機上按鍵停止 |
-| **BT9** | ~560（展示倉） | 繳交版；中文註解較完整 |
+| **BT9** | ~560（Showcase Repository） | 繳交版；中文註解較完整 |
 
 M1–M15、T1–T5、`badapple_music`、`oledct86` 是 OLED／譜／第三方函式庫實驗，與掛件成品無關。
 
@@ -18,7 +18,7 @@ M1–M15、T1–T5、`badapple_music`、`oledct86` 是 OLED／譜／第三方函
 
 檔頭標明 [TUNIOT for ESP32](https://easycoding.tn/)（積木轉 Arduino）。`notes.h` 是頻率表。循環、中斷、`dost()` 換曲是後來手寫，所以風格不像一份從零規劃的 C++。
 
-## 展示倉改了什麼
+## Showcase Repository 改了什麼
 
 只做一件能編譯的最小修正：刪掉 `loop()` 與 `Pekora()` 之間**第一份** `volume()`。繳交檔把同一個函式寫了兩次，在 Arduino 合併編譯時會重定義失敗。留下的是檔尾那一份，與 BT8 行為相同。
 

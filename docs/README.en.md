@@ -4,7 +4,7 @@
 </div>
 
 <div align="center">
-  <img src="assets/hero.svg" alt="B4 Bluetooth Tracker" width="760">
+  <img src="docs/assets/hardware/device-diagram.png" alt="B4 Bluetooth Tracker" width="760">
 </div>
 
 <h1 align="center">B4 Bluetooth Tracker</h1>
@@ -76,7 +76,6 @@ Lolin32 Lite, a 3.7 V 500 mAh cell, a passive buzzer, a tactile switch, a hand-m
 | --- | --- |
 | **Drop resistance was the claim** | About 79% of 354 respondents agreed it looked durable. Appearance scored poorly. The brief treated toughness as a research goal, not a side test. |
 | **No coordinates** | Classic Bluetooth has no fix. Range is whatever the speaker can shout. The 2021 slides said so. |
-| **Blocks, then handwriting** | The sketch header comes from [TUNIOT for ESP32](https://easycoding.tn/). Volume, interrupt and loop-play were added by hand. |
 
 ## Demo
 

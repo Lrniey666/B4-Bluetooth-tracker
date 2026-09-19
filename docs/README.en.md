@@ -1,21 +1,21 @@
-<p align="center">
+<div align="center">
   <a href="../README.md"><img alt="繁體中文" src="https://img.shields.io/badge/%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87-2f6fed?style=for-the-badge&labelColor=1b2434"></a>
   <a href="#readme"><img alt="English" src="https://img.shields.io/badge/English-e07a2f?style=for-the-badge&labelColor=1b2434"></a>
-</p>
+</div>
 
-<p align="center">
+<div align="center">
   <img src="assets/hero.svg" alt="B4 Bluetooth Tracker" width="760">
-</p>
+</div>
 
 <h1 align="center">B4 Bluetooth Tracker</h1>
 
-<p align="center">
+<div align="center">
   <strong>A Bluetooth lost-item finder</strong><br>
   The handset issues a command; the ESP32 on the key ring rings and lights up.<br>
   A 2021 vocational-school capstone — not a commercial locator.
-</p>
+</div>
 
-<p align="center">
+<div align="center">
   <img alt="status" src="https://img.shields.io/badge/status-archived%20showcase-e07a2f?style=flat-square&labelColor=1b2434">
   <img alt="year" src="https://img.shields.io/badge/year-2021-2f6fed?style=flat-square&labelColor=1b2434">
   <img alt="mcu" src="https://img.shields.io/badge/MCU-ESP32%20Lolin32%20Lite-000000?style=flat-square&labelColor=1b2434">
@@ -23,9 +23,9 @@
   <img alt="app" src="https://img.shields.io/badge/app-MIT%20App%20Inventor-67b446?style=flat-square&labelColor=1b2434">
   <img alt="locale" src="https://img.shields.io/badge/locale-zh--Hant%20%2F%20en--GB-e07a2f?style=flat-square&labelColor=1b2434">
   <img alt="licence" src="https://img.shields.io/badge/licence-MIT-6b6b6b?style=flat-square&labelColor=1b2434">
-</p>
+</div>
 
-<p align="center">
+<div align="center">
   <a href="#features">Features</a> ·
   <a href="#demo">Demo</a> ·
   <a href="#architecture">Architecture</a> ·
@@ -34,7 +34,7 @@
   <a href="#contributing">Contributing</a> ·
   <a href="./README.md">Docs index</a> ·
   <a href="../CHANGELOG.md">Changelog</a>
-</p>
+</div>
 
 ---
 
@@ -82,15 +82,15 @@ Lolin32 Lite, a 3.7 V 500 mAh cell, a passive buzzer, a tactile switch, a hand-m
 
 The 2021 film: [Group B4 · concept build](https://youtu.be/bfgeC1RDvt0)
 
-<p align="center">
+<div align="center">
   <img src="assets/hardware/assembled.jpg" alt="ESP32 seated in a key-ring case with the power LED on" width="720">
-</p>
-<p align="center"><sub>Hand-made case and a Lolin32 Lite. The USB charging port stays exposed; the blue LED is the board power indicator.</sub></p>
+</div>
+<div align="center"><sub>Hand-made case and a Lolin32 Lite. The USB charging port stays exposed; the blue LED is the board power indicator.</sub></div>
 
-<p align="center">
+<div align="center">
   <img src="assets/hardware/app-launch.jpg" alt="Phone home screen showing the B4 Bluetooth Tracker beta icon beside a green case" width="720">
-</p>
-<p align="center"><sub>Classroom still: the icon reads “B4藍芽追蹤 Beta版”; the green box is a later painted shell.</sub></p>
+</div>
+<div align="center"><sub>Classroom still: the icon reads “B4藍芽追蹤 Beta版”; the green box is a later painted shell.</sub></div>
 
 ### One full path
 
@@ -186,6 +186,6 @@ The classroom tones exist so the 2021 demo can be reproduced. They do not licenc
 
 ---
 
-<p align="center">
+<div align="center">
   <sub>Class 3-Geng, stream B, group 4 · academic year 2021 (ROC 110)</sub>
-</p>
+</div>

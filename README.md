@@ -1,21 +1,21 @@
-<p align="center">
+<div align="center">
   <a href="#readme"><img alt="繁體中文" src="https://img.shields.io/badge/%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87-e07a2f?style=for-the-badge&labelColor=1b2434"></a>
   <a href="docs/README.en.md"><img alt="English" src="https://img.shields.io/badge/English-2f6fed?style=for-the-badge&labelColor=1b2434"></a>
-</p>
+</div>
 
-<p align="center">
+<div align="center">
   <img src="docs/assets/hero.svg" alt="B4 Bluetooth Tracker" width="760">
-</p>
+</div>
 
 <h1 align="center">B4 Bluetooth Tracker</h1>
 
-<p align="center">
+<div align="center">
   <strong>藍芽失物協尋器</strong><br>
   手機下指令，鑰匙圈上的 ESP32 就響、就亮。<br>
   2021 高職商管群專題的概念實作，不是市售定位器。
-</p>
+</div>
 
-<p align="center">
+<div align="center">
   <img alt="status" src="https://img.shields.io/badge/status-archived%20showcase-e07a2f?style=flat-square&labelColor=1b2434">
   <img alt="year" src="https://img.shields.io/badge/year-2021-2f6fed?style=flat-square&labelColor=1b2434">
   <img alt="mcu" src="https://img.shields.io/badge/MCU-ESP32%20Lolin32%20Lite-000000?style=flat-square&labelColor=1b2434">
@@ -23,9 +23,9 @@
   <img alt="app" src="https://img.shields.io/badge/app-MIT%20App%20Inventor-67b446?style=flat-square&labelColor=1b2434">
   <img alt="locale" src="https://img.shields.io/badge/locale-zh--Hant%20%2F%20en--GB-e07a2f?style=flat-square&labelColor=1b2434">
   <img alt="licence" src="https://img.shields.io/badge/licence-MIT-6b6b6b?style=flat-square&labelColor=1b2434">
-</p>
+</div>
 
-<p align="center">
+<div align="center">
   <a href="#功能">功能</a> ·
   <a href="#示範">示範</a> ·
   <a href="#架構">架構</a> ·
@@ -34,7 +34,7 @@
   <a href="#貢獻">貢獻</a> ·
   <a href="docs/README.md">文件索引</a> ·
   <a href="CHANGELOG.md">變更紀錄</a>
-</p>
+</div>
 
 ---
 
@@ -80,15 +80,15 @@ Lolin32 Lite、3.7 V 500 mAh 鋰電、無源蜂鳴器、輕觸開關、樹脂／
 
 成片（約 2021-12）：[三庚專題 B 第四組 · 概念實作](https://youtu.be/bfgeC1RDvt0)
 
-<p align="center">
+<div align="center">
   <img src="docs/assets/hardware/assembled.jpg" alt="鑰匙圈外殼內的 ESP32，電源 LED 亮著" width="720">
-</p>
-<p align="center"><sub>手作外殼與 Lolin32 Lite。USB 充電口外露；藍燈為板上電源指示。</sub></p>
+</div>
+<div align="center"><sub>手作外殼與 Lolin32 Lite。USB 充電口外露；藍燈為板上電源指示。</sub></div>
 
-<p align="center">
+<div align="center">
   <img src="docs/assets/hardware/app-launch.jpg" alt="手機桌面顯示 B4 藍芽追蹤 Beta 圖示，旁邊是綠色外殼" width="720">
-</p>
-<p align="center"><sub>課堂錄影截圖：APP 圖示為「B4藍芽追蹤 Beta版」，綠色盒為後期上色外殼。</sub></p>
+</div>
+<div align="center"><sub>課堂錄影截圖：APP 圖示為「B4藍芽追蹤 Beta版」，綠色盒為後期上色外殼。</sub></div>
 
 ### 一條完整路徑
 
@@ -184,6 +184,6 @@ original-data/         8.6 GB 原料庫，已被 .gitignore
 
 ---
 
-<p align="center">
+<div align="center">
   <sub>三庚專題 B · 第四組 · 民國 110 學年度</sub>
-</p>
+</div>

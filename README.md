@@ -70,11 +70,10 @@ Lolin32 Lite、3.7 V 500 mAh 鋰電、無源蜂鳴器、輕觸開關、樹脂／
 </tr>
 </table>
 
-| 還有這些 | 為什麼這樣做 |
+| 還有這些| 緣由 |
 | --- | --- |
 | **耐摔當賣點** | 問卷 354 人裡，約 79% 同意「耐摔、耐用」；外觀分數反而偏低。專題把耐用寫進研究目的，不是順便測的。 |
 | **不追蹤位置** | Classic Bluetooth 沒有座標。距離就是喇叭聽得到的範圍，簡報也誠實寫了這點。 |
-| **積木產生、手改收尾** | 韌體開頭來自 [TUNIOT for ESP32](https://easycoding.tn/)，音量、中斷、循環播放是後來手寫的。 |
 
 ## 示範
 
@@ -169,8 +168,6 @@ CONTRIBUTING.md        貢獻約定
 CHANGELOG.md           Keep a Changelog 2.0.0
 original-data/         8.6 GB 原料庫，已被 .gitignore
 ```
-
-完整樹狀與「為什麼沒把影片／問卷 csv 放進來」見 [`docs/README.md`](docs/README.md)。
 
 ## 貢獻
 
